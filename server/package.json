@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "proxy": "http://localhost:8080",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon",
+    "seed": "node config/seeds.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.12.0",
+    "axios": "^0.22.0",
+    "bcryptjs": "^2.4.3",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1",
+    "graphql": "^15.5.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.9",
+    "stripe": "^8.176.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
